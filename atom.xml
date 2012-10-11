@@ -4,7 +4,7 @@
   <title><![CDATA[ssgreg private blog]]></title>
   <link href="http://ssgreg.com/atom.xml" rel="self"/>
   <link href="http://ssgreg.com/"/>
-  <updated>2012-10-11T14:24:23+04:00</updated>
+  <updated>2012-10-11T14:48:46+04:00</updated>
   <id>http://ssgreg.com/</id>
   <author>
     <name><![CDATA[Grigory Zubankov]]></name>
@@ -22,7 +22,7 @@
 
 <p><img src="images/blog/icloud-photostream-property.png"></p>
 
-<p>Ходите узнать сколько гигабайт съедает Фотопоток на вашем жестком диске? Или сколько бесценного &#8220;жизненного пространства&#8221; <strong>SSD</strong> пропадет зря? Открывайте <strong>Finder</strong> и жмите <strong><em>Shift+Command+G</em></strong>.
+<p>Ходите узнать сколько гигабайт съедает Фотопоток на вашем жестком диске? Или сколько бесценного &#8220;жизненного пространства&#8221; <strong>SSD</strong> пропадет зря? Открывайте <strong>Finder</strong> и жмите <code>Shift+Command+G</code>.
 Нужная папка лежит по пути:</p>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -30,7 +30,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Размер папки &#8216;sub&#8217; подскажет, сколько Фотопоток стоит конкретно вам. Несколько дороговато, не находите? :)</p>
+<p>Размер папки <code>sub</code> подскажет, сколько Фотопоток стоит конкретно вам. Несколько дороговато, не находите? :)</p>
 
 <p>Удалять папку руками не советую, так сказать во избежание. Но очистить ее содержимое вполне реально. Для этого достаточно выключив Фотопоток в системных настройках, и тут же включив его заново. К сожалению процедуру придется через некоторое время повторить.</p>
 ]]></content>

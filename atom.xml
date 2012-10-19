@@ -4,7 +4,7 @@
   <title><![CDATA[ssgreg private blog]]></title>
   <link href="http://ssgreg.com/atom.xml" rel="self"/>
   <link href="http://ssgreg.com/"/>
-  <updated>2012-10-18T14:19:58+04:00</updated>
+  <updated>2012-10-19T13:49:12+04:00</updated>
   <id>http://ssgreg.com/</id>
   <author>
     <name><![CDATA[Grigory Zubankov]]></name>
@@ -14,13 +14,24 @@
 
   
   <entry>
+    <title type="html"><![CDATA[SublerCLI и bash: меняем мету всем файлам в папке]]></title>
+    <link href="http://ssgreg.com/blog/2012/10/19/sublercli-i-bash-mieniaiem-mietu-vsiem-failam-v-papkie/"/>
+    <updated>2012-10-19T10:24:00+04:00</updated>
+    <id>http://ssgreg.com/blog/2012/10/19/sublercli-i-bash-mieniaiem-mietu-vsiem-failam-v-papkie</id>
+    <content type="html"><![CDATA[<p><img src="http://ssgreg.com/images/blog/github-octocat.png" width="256" height="256"></p>
+
+<p>Ссылка на открытый репозиторий на github: <a href="https://github.com/ssgreg/M4vMetaSetter">M4vMetaSetter</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Про Фотопоток и бесценные гигабайты]]></title>
     <link href="http://ssgreg.com/blog/2012/10/11/pro-fotopotok-i-biestsiennyie-ghighibaity/"/>
     <updated>2012-10-11T13:19:00+04:00</updated>
     <id>http://ssgreg.com/blog/2012/10/11/pro-fotopotok-i-biestsiennyie-ghighibaity</id>
     <content type="html"><![CDATA[<p>У вас включен Фотопоток на <strong>Mac</strong>? Значит гигабайты фотографий (в моем случае почти 9 гигабайт), которые попали в Фотопоток, хранятся не только в облаке. Но и на диске вашего компьютера.</p>
 
-<p><img src="http://ssgreg.com/images/blog/icloud-photostream-property.png"></p>
+<p><img src="http://ssgreg.com/images/blog/icloud-photostream-property.png" width="695" height="499"></p>
 
 <p>Ходите узнать сколько гигабайт съедает Фотопоток на вашем жестком диске? Или сколько бесценного &#8220;жизненного пространства&#8221; <strong>SSD</strong> пропадет зря? Открывайте <strong>Finder</strong> и жмите <code>Shift+Command+G</code>.
 Нужная папка лежит по пути:</p>

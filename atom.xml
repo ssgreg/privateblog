@@ -4,7 +4,7 @@
   <title><![CDATA[ssgreg private blog]]></title>
   <link href="http://ssgreg.com/atom.xml" rel="self"/>
   <link href="http://ssgreg.com/"/>
-  <updated>2012-10-19T13:49:12+04:00</updated>
+  <updated>2012-10-20T11:21:07+04:00</updated>
   <id>http://ssgreg.com/</id>
   <author>
     <name><![CDATA[Grigory Zubankov]]></name>
@@ -18,9 +18,27 @@
     <link href="http://ssgreg.com/blog/2012/10/19/sublercli-i-bash-mieniaiem-mietu-vsiem-failam-v-papkie/"/>
     <updated>2012-10-19T10:24:00+04:00</updated>
     <id>http://ssgreg.com/blog/2012/10/19/sublercli-i-bash-mieniaiem-mietu-vsiem-failam-v-papkie</id>
-    <content type="html"><![CDATA[<p><img src="http://ssgreg.com/images/blog/github-octocat.png" width="256" height="256"></p>
+    <content type="html"><![CDATA[<p>Написать скрипт меня вынудил <strong>iTunes</strong>, которым я пользовался для установки меты свежесконвертированным файлам. В <strong>iTunes</strong>, по непонятным мне соображениям, параметр меты <code>Media Kind</code> меняется временно, ровно до тех пор пока файл находится в библиотеке. Стоит файл удалить из библиотеки и вновь добавить - параметр скидывается в дефолтное значение. Подобное поведение несколько напрягает.</p>
 
-<p>Ссылка на открытый репозиторий на github: <a href="https://github.com/ssgreg/M4vMetaSetter">M4vMetaSetter</a></p>
+<p><img src="http://ssgreg.com/images/blog/subler-logo.jpg" width="543"></p>
+
+<p>Мету для <code>m4v</code> видеофайлов умеет менять известное приложение <a href="http://code.google.com/p/subler/">Subler</a>. Относительно недавно в рамках этого проекта появилась конcольная утилита, идеально подходящая для пакетной обработки.</p>
+
+<p>Скрипт на основе <code>SublerCLI</code> в настоящий момент умеет станавливать нижеперечисленные параметры меты всем файлам <code>m4v</code> в текущей папке. Для настройки фильтра требуется указать путь до <code>SublerCLI</code> в конфигурационной секции скрипта.</p>
+
+<p>Синтаксис:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"</td><td class='code'><pre><code class='bash'><span class='line'>metasetter TvShowName SeasonNumber ArtworkPath
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Пример использования:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"</td><td class='code'><pre><code class='bash'><span class='line'>metasetter <span class="s2">&quot;House M.D.&quot;</span> 1 <span class="s2">&quot;\Users\greg\Pictures\covers\housemd-1.png&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ссылка на открытый репозиторий на github: <a href="https://github.com/ssgreg/M4vMetaSetter">M4vMetaSetter</a> <img src="http://ssgreg.com/images/blog/github-cat.png" width="16" height="16"></p>
 ]]></content>
   </entry>
   
@@ -33,7 +51,7 @@
 
 <p><img src="http://ssgreg.com/images/blog/icloud-photostream-property.png" width="695" height="499"></p>
 
-<p>Ходите узнать сколько гигабайт съедает Фотопоток на вашем жестком диске? Или сколько бесценного &#8220;жизненного пространства&#8221; <strong>SSD</strong> пропадет зря? Открывайте <strong>Finder</strong> и жмите <code>Shift+Command+G</code>.
+<p>Хотите узнать сколько гигабайт съедает Фотопоток на вашем жестком диске? Или сколько бесценного &#8220;жизненного пространства&#8221; <strong>SSD</strong> пропадет зря? Открывайте <strong>Finder</strong> и жмите <code>Shift+Command+G</code>.
 Нужная папка лежит по пути:</p>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"</td><td class='code'><pre><code class='bash'><span class='line'>~/Library/Application Support/iLifeAssetManagement/assets

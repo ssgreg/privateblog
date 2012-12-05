@@ -4,7 +4,7 @@
   <title><![CDATA[ssgreg private blog]]></title>
   <link href="http://ssgreg.com/atom.xml" rel="self"/>
   <link href="http://ssgreg.com/"/>
-  <updated>2012-11-25T09:15:27+04:00</updated>
+  <updated>2012-12-05T16:27:39+04:00</updated>
   <id>http://ssgreg.com/</id>
   <author>
     <name><![CDATA[ssgreg]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Маленький совет владельцам дополнительного монитора]]></title>
+    <link href="http://ssgreg.com/blog/2012/12/05/secondary-monitor-above-macbook-and-window-moving/"/>
+    <updated>2012-12-05T16:03:00+04:00</updated>
+    <id>http://ssgreg.com/blog/2012/12/05/secondary-monitor-above-macbook-and-window-moving</id>
+    <content type="html"><![CDATA[<p>Маленький совет тем, кто подключает к макбуку дополнительный монитор: если  монитор поставить позади макбука, то почти наверняка захочется переносить окна не слева направо, а снизу вверх, указав в настройках, что дополнительный монитор находится над макбуком:</p>
+
+<p><img src="http://ssgreg.com/images/blog/display-arrangement-property.png" width="782" height="638"></p>
+
+<p>Вот только окно будет &#8220;прилипать&#8221; к строке меню во премя переноса, а не перемещаться вслед за указателем мыши на новый экран. Может показаться что перенести окно через строку меню на новый экран нельзя. Это не так. Просто продолжайте тянуть окно вверх. Как далеко? Зависит ислючетельно от высоты окна. Оно долно уместиться между указателем мыши и нижней границей нового экрана.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[SublerCLI и bash: меняем мету всем файлам в папке]]></title>
